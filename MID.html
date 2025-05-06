@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style> </style>
+    <link rel="stylesheet" href="MID.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">HF-CLOTHE,S</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Product">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-login me-2">Login</button>
+                    <button class="btn btn-signup">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="display-4">Premium Cloth,s Quality</h1>
+                <p class="lead">Discover our exclusive collection of high-quality products designed to enhance your lifestyle. Shop now and experience the difference.</p>
+                <a href="#" class="btn btn-cta">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="Product">
+        <div class="container">
+            <h2 class="text-center section-title">Featured Products</h2>
+            <div class="row">
+                <!-- Product Card 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://images.pexels.com/photos/31869479/pexels-photo-31869479/free-photo-of-young-woman-smiling-on-barcelona-beach.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wireless Headphones">
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">White Printed Tshirt</h5>
+                            <p class="product-price">$129.99</p>
+                            <button class="btn btn-add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Card 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://images.pexels.com/photos/2769297/pexels-photo-2769297.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Smart Watch">
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">White Tshirt</h5>
+                            <p class="product-price">$199.99</p>
+                            <button class="btn btn-add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Card 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://images.pexels.com/photos/3130372/pexels-photo-3130372.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bluetooth Speaker">
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Black Tshirt </h5>
+                            <p class="product-price">$89.99</p>
+                            <button class="btn btn-add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Card 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://images.pexels.com/photos/3029796/pexels-photo-3029796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="DSLR Camera">
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title"> White Line Tshirt</h5>
+                            <p class="product-price">$599.99</p>
+                            <button class="btn btn-add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contact-section" id="Contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please fill out the form below:</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Hammad Farooqui. All rights reserved.</p>
+    </footer>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
